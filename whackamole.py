@@ -20,7 +20,7 @@ def main():
                     running = False
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     x, y = event.pos
-                    print(x//32, y//32)
+                
 
             screen.fill("light green")
             #draw grid
